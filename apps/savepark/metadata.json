@@ -11,7 +11,7 @@
   "supports": ["BANGLEJS2"],
   "allow_emulator": true,
   "storage": [
-    {"name":"bttfclock.app.js","url":"app.js"},
-    {"name":"bttfclock.img","url":"app-icon.js","evaluate":true}
+    {"name":"savepark.app.js","url":"app.js"},
+    {"name":"savepark.img","url":"app-icon.js","evaluate":true}
   ]
 }
