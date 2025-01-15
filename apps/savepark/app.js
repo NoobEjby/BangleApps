@@ -8,6 +8,9 @@ function main() {
   Bangle.setGPSPower(true, filename);
   log(Bangle.isGPSOn());
   getGPSData(30, 0);
+  if (drawTimeout) {
+    clearTimeout(drawTimeout);
+  }
 }
 
 
